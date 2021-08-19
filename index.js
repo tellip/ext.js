@@ -18,5 +18,4 @@ Reflect.filter = (obj, cb) => Reflect.ownKeys(obj).filter(key => cb(obj[key], ke
     acc[key] = obj[key];
     return acc;
 }, {});
-Function.loop = callback => callback() && Function.loop(callback);
 Function.iterate = (callback, ...args) => callback((...args) => Function.iterate(callback, ...args), ...args);
