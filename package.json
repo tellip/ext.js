@@ -1,0 +1,9 @@
+{
+  "name": "ext.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tellip/ext.js.git",
+  "author": "Tephi Luo <luojunyi.0@gmail.com>",
+  "license": "MIT",
+  "type": "module"
+}
